@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.1\bin;C:\Users\andre.ribeiro\AppData\Local\Microsoft\WindowsApps;C:\Users\andre.ribeiro\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\andre.ribeiro\AppData\Roaming\npm;C:\Users\andre.ribeiro\AppData\Local\Yarn\bin;C:\Users\andre.ribeiro\AppData\Local\Android\Sdk\platform-tools;C:\Users\andre.ribeiro\AppData\Local\Android\Sdk\tools;
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\andre.ribeiro\Documents\Inovacao\make-it-easy-api-search-customer\package.json: Unexpected token } in JSON at position 354
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "customers-backend-node",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^8.1.0",
+      "express": "^4.17.1",
+      "express-async-handler": "^1.1.4",
+      "mongoose": "^5.6.11",
+    },
+    "devDependencies": {
+      "eslint": "^6.2.2",
+      "eslint-config-standard": "^14.1.0",
+      "eslint-plugin-import": "^2.18.2",
+      "eslint-plugin-node": "^9.1.0",
+      "eslint-plugin-promise": "^4.2.1",
+      "eslint-plugin-standard": "^4.0.1",
+      "nodemon": "^1.19.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
